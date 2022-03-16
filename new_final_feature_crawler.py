@@ -42,7 +42,7 @@ from pandas.io.json import json_normalize
 
 #"https://api.github.com/repos/{owner}/{repository}/issues"
 
-api_token = "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"
+api_token = ""
 URL = "https://api.github.com/search/issues?q=repo:" # The basic URL to use the GitHub API
 headers = {'Authorization': 'token %s' % api_token} # The authorization needed for Github API
 authorization = ("guan-terry", api_token)
